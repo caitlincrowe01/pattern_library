@@ -100,7 +100,7 @@ nav a:hover{
 
 /*--------NAVATION 3---------*/
 .nav3 {
-  display: flex;
+  list-style-type: none;
   margin: 0;
   margin-top: 12em;
   padding: 0;
@@ -121,3 +121,4 @@ nav a:hover{
   padding: 14px 20px;
   text-decoration: none;
 }
+
