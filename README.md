@@ -7,8 +7,6 @@ In this pattern library I have included some of the techniques I gained whilst e
 Objects
 =======
 -[Typography](https://caitlincrowe01.github.io/pattern_library/objects/typography.html)
--[Head](https://caitlincrowe01.github.io/pattern_library/objects/head.html)
--[Colour](https://caitlincrowe01.github.io/pattern_library/objects/colour.html)
 
 Components
 ==========

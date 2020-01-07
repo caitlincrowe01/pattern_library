@@ -1,3 +1,36 @@
+blockquote{display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 5px;
+  
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #666;
+
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+
+  /*Borders - (Optional)*/
+  border-left-style: solid;
+  border-left-width: 15px;
+  border-right-style: solid;
+  border-right-width: 2px;    
+}
+
+
+blockquote.default{ 
+  border-left-color: #024597;
+  border-right-color: #024597;  
+}
+
+
+
+
 
 /*-----NAV------*/
 #nav{
@@ -67,13 +100,14 @@ nav a:hover{
 
 /*--------NAVATION 3---------*/
 .nav3 {
-  list-style-type: none;
+  display: flex;
   margin: 0;
   margin-top: 12em;
   padding: 0;
   overflow: hidden;
   background-color: rgb(235, 154, 154);
   top:100;
+  transition-timing-function: ;
 }
 
 .nav3 li {
@@ -86,14 +120,4 @@ nav a:hover{
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-}
-
-
-/*------- Footer --------*/
-footer {
-  text-align: center;
-  font-size: 0.707em;
-  padding: 2em 0 4em 0;
-  margin: auto;
-  margin-top: 18em
 }
