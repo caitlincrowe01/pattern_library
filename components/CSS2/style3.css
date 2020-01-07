@@ -1,0 +1,99 @@
+
+/*-----NAV------*/
+#nav{
+  color: #ff0000;
+  text-decoration: none;
+}
+a{
+  color: #ffffff;;
+  text-decoration: none;
+}
+
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background-color: rgb(193, 185, 248);
+  padding: 1em 0;
+  font-size: 0.80em;
+}
+
+nav ul{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav ul li{
+  display: inline;
+  margin: 20px;
+}
+
+nav a:link{
+  color: #f04c4c;
+}
+
+nav a:hover{
+  border-bottom: none;
+  color: #ff00f2;
+}
+/*--------NAVIGATION 2-----------*/
+.nav2 {
+  display: flex;
+  position: fixed;
+  top: 100;
+  left: 0;
+  margin-top: 6em;
+  width: 100%;
+  background-color: rgb(53, 56, 56);
+}
+
+
+.nav2 a {
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.nav2 a:hover {
+  background-color: #ffb7b7;
+  color: black;
+}
+
+/*--------NAVATION 3---------*/
+.nav3 {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 12em;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(235, 154, 154);
+  top:100;
+}
+
+.nav3 li {
+  float: left;
+}
+
+.nav3 a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/*------- Footer --------*/
+footer {
+  text-align: center;
+  font-size: 0.707em;
+  padding: 2em 0 4em 0;
+  margin: auto;
+  margin-top: 18em
+}
