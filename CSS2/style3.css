@@ -1,0 +1,114 @@
+blockquote{display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 5px;
+  
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #666;
+
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+
+  /*Borders - (Optional)*/
+  border-left-style: solid;
+  border-left-width: 15px;
+  border-right-style: solid;
+  border-right-width: 2px;    
+}
+
+
+blockquote.default{ 
+  border-left-color: #024597;
+  border-right-color: #024597;  
+}
+
+
+
+
+
+/*-----NAV------*/
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background-color: rgb(193, 185, 248);
+  padding: 1em 0;
+  font-size: 0.80em;
+}
+
+nav ul{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav ul li{
+  display: inline;
+  margin: 20px;
+}
+
+nav a:link{
+  color: #ffffff;
+}
+
+nav a:hover{
+  border-bottom: none;
+  color: #ff00f2;
+}
+/*--------NAVIGATION 2-----------*/
+.nav2 {
+  display: flex;
+  position: fixed;
+  top: 100;
+  left: 0;
+  margin-top: 6em;
+  width: 100%;
+  background-color: rgb(53, 56, 56);
+}
+
+
+.nav2 a {
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.nav2 a:hover {
+  background-color: #ffb7b7;
+  color: black;
+}
+
+/*--------NAVATION 3---------*/
+.nav3 {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 12em;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(235, 154, 154);
+  top:100;
+  transition-timing-function: ;
+}
+
+.nav3 li {
+  float: left;
+}
+
+.nav3 a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
