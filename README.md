@@ -7,9 +7,9 @@ In this pattern library I have included some of the techniques I gained whilst e
 Objects
 =======
 -[Typography](https://caitlincrowe01.github.io/pattern_library/objects/typography.html)
--[Head](https://caitlincrowe01.github.io/pattern_library/head.html)
--[Colour](https://caitlincrowe01.github.io/pattern_library/colour.html) 
+-[Head](https://caitlincrowe01.github.io/pattern_library/objects/head.html)
+-[Colour](https://caitlincrowe01.github.io/pattern_library/objects/colour.html)
 
 Components
 ==========
--[Navagation](https://caitlincrowe01.github.io/pattern_library/nav.html)
+-[Navagation](https://caitlincrowe01.github.io/pattern_library/components/nav.html)
